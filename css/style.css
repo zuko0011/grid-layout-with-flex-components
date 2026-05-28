@@ -25,3 +25,47 @@ body {
 .icon {
   font-size: 4rem;
 }
+
+/* CSS Main layouts */
+
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 880px;
+}
+
+.emoji {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  order: 1;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0rem;
+}
+
+.emoji h2 {
+  order: 2;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  padding-bottom: 0rem;
+  margin-bottom: 0.9rem;
+}
+
+.emoji p {
+  order: 3;
+  font-size: 1.05rem;
+  line-height: 1.1;
+  margin: 0 0 1rem 0;
+}
+
+.emoji a {
+  order: 4;
+  margin-top: auto;
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+}
